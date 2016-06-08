@@ -153,7 +153,6 @@ LOCAL_C_INCLUDES := \
 	../src/libsodium/randombytes\
 	../src/libsodium/sodium\
 
-#LOCAL_CFLAGS := -D_IRR_ANDROID_FLATFORM_ -g -D_DEBUG
 LOCAL_LDLIBS := -llog
 
 include $(BUILD_SHARED_LIBRARY)
