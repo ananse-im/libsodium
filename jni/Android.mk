@@ -155,4 +155,6 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_LDLIBS := -llog
 
+TARGET_PLATFORM := android-21
+
 include $(BUILD_SHARED_LIBRARY)
