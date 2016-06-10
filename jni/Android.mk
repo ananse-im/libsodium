@@ -119,39 +119,39 @@ LOCAL_SRC_FILES := \
 	crypto_stream/salsa208/ref/xor_salsa208.c
 
 LOCAL_C_INCLUDES := \
-	../src/libsodium/crypto_aead\
-	../src/libsodium/crypto_scalarmult/curve25519\
-	../src/libsodium/crypto_scalarmult/curve25519/donna_c64\
-	../src/libsodium/crypto_scalarmult/curve25519/ref10\
-	../src/libsodium/crypto_scalarmult/curve25519/sandy2x\
-	../src/libsodium/crypto_auth\
-	../src/libsodium/crypto_box\
-	../src/libsodium/crypto_core\
-	../src/libsodium/crypto_core/curve25519/ref10\
-	../src/libsodium/crypto_core/hchacha20\
-	../src/libsodium/crypto_generichash\
-	../src/libsodium/crypto_generichash/blake2/ref\
-	../src/libsodium/crypto_hash\
-	../src/libsodium/crypto_onetimeauth\
-	../src/libsodium/crypto_onetimeauth\
-	../src/libsodium/crypto_onetimeauth/poly1305/donna\
-	../src/libsodium/crypto_pwhash\
-	../src/libsodium/crypto_pwhash/argon2\
-	../src/libsodium/crypto_pwhash/scryptsalsa208sha256\
-	../src/libsodium/crypto_scalarmult\
-	../src/libsodium/crypto_secretbox\
-	../src/libsodium/crypto_shorthash\
-	../src/libsodium/crypto_sign\
-	../src/libsodium/crypto_stream\
-	../src/libsodium/crypto_stream/chacha20\
-	../src/libsodium/crypto_stream/chacha20/ref\
-	../src/libsodium/crypto_stream/aes128ctr/portable\
-	../src/libsodium/crypto_verify\
-	../src/libsodium/include\
-	../src/libsodium/include/sodium\
-	../src/libsodium/include/sodium/private\
-	../src/libsodium/randombytes\
-	../src/libsodium/sodium\
+    src/libsodium/crypto_aead\
+	src/libsodium/crypto_scalarmult/curve25519\
+	src/libsodium/crypto_scalarmult/curve25519/donna_c64\
+	src/libsodium/crypto_scalarmult/curve25519/ref10\
+	src/libsodium/crypto_scalarmult/curve25519/sandy2x\
+	src/libsodium/crypto_auth\
+	src/libsodium/crypto_box\
+	src/libsodium/crypto_core\
+	src/libsodium/crypto_core/curve25519/ref10\
+	src/libsodium/crypto_core/hchacha20\
+	src/libsodium/crypto_generichash\
+	src/libsodium/crypto_generichash/blake2/ref\
+	src/libsodium/crypto_hash\
+	src/libsodium/crypto_onetimeauth\
+	src/libsodium/crypto_onetimeauth\
+	src/libsodium/crypto_onetimeauth/poly1305/donna\
+	src/libsodium/crypto_pwhash\
+	src/libsodium/crypto_pwhash/argon2\
+	src/libsodium/crypto_pwhash/scryptsalsa208sha256\
+	src/libsodium/crypto_scalarmult\
+	src/libsodium/crypto_secretbox\
+	src/libsodium/crypto_shorthash\
+	src/libsodium/crypto_sign\
+	src/libsodium/crypto_stream\
+	src/libsodium/crypto_stream/chacha20\
+	src/libsodium/crypto_stream/chacha20/ref\
+	src/libsodium/crypto_stream/aes128ctr/portable\
+	src/libsodium/crypto_verify\
+	src/libsodium/include\
+	src/libsodium/include/sodium\
+	src/libsodium/include/sodium/private\
+	src/libsodium/randombytes\
+	src/libsodium/sodium\
 
 LOCAL_LDLIBS := -llog
 
