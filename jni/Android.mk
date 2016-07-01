@@ -157,4 +157,4 @@ LOCAL_LDLIBS := -llog
 
 TARGET_PLATFORM := android-21
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
